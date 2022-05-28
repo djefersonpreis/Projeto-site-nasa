@@ -9514,6 +9514,10 @@ textarea.form-control {
   z-index: 2;
 }
 
+.page-header .filter.filter-grey::after {
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
 .page-header .filter.filter-primary::after {
   background-color: rgba(52, 181, 184, 0.5);
 }
