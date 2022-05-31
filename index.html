@@ -6,10 +6,15 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img//apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img//favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="theme-color" content="#FFFFFF"/>
     <title>Projeto NASA</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
         name='viewport' />
+
+    <!-- Service Worker para PWA -->
+    <script src="/service-worker.js"></script>
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
 
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -28,8 +33,7 @@
     <nav class="navbar navbar-expand-lg fixed-top nav-down navbar-transparent" color-on-scroll="500">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="./index.html" rel="tooltip"
-                    title="Projeto NASA" data-placement="bottom">
+                <a class="navbar-brand" href="./index.html" rel="tooltip" title="Projeto NASA" data-placement="bottom">
                     Projeto NASA
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
